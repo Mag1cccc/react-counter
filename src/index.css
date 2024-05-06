@@ -41,10 +41,15 @@ button {
   width: 30px;
   height: 30px;
   background-color: rgb(3, 192, 255);
-  border: 0;
   border-radius: 4px;
   font-size: 24px;
   cursor: pointer;
+  border: 2px solid rgb(246, 153, 153);
+}
+
+button:hover {
+  background-color: rgb(246, 153, 153);
+  color: rgb(3, 192, 255);
 }
 
 .m-20 {

@@ -28,7 +28,7 @@ body {
 
 span {
   font-size: 24px;
-  color: rgb(3, 192, 255);
+  color: rgb(246, 153, 153);
 }
 
 .count-container {
@@ -58,4 +58,50 @@ button:hover {
 
 .m-16 {
   margin: 16px;
+}
+
+.steps {
+  display: flex;
+}
+
+.range-input {
+  border: 2px solid rgb(246, 153, 153);
+  margin: 16px 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid rgb(246, 153, 153);
+  margin: 16px 4px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  display: inline;
+  margin: 0 4px;
+  outline: none;
+  color: rgb(246, 153, 153);
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid rgb(246, 153, 153);
+  color: rgb(246, 153, 153);
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.button:hover {
+  border: 2px solid rgb(3, 192, 255);
 }
